@@ -90,6 +90,7 @@ html {
 
   .site-header-inner {
     position: relative;
+    color: black;
   }
 }
 
@@ -628,6 +629,8 @@ html {
         @include relative-font-size(3.9);
         letter-spacing: -1px;
         margin-bottom: 0.01em;
+        text-align: right;
+        margin-right: 20%;
         font-weight: normal;
         transition: 0.2s all;
         color: #F9F9E5;
@@ -644,7 +647,7 @@ html {
         color: #CBA9A8;
         font-stretch: expanded;
         text-align: right;
-        margin-right: 190px;
+        margin-right: 21%;
 
         @include media-query($on-palm) {
           @include relative-font-size(1.175);
